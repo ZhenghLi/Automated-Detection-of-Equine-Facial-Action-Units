@@ -1,5 +1,4 @@
 import os
-import pandas as pd
 
 cuda_num = 0
 
