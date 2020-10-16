@@ -3,7 +3,7 @@ Modified models for our paper Automated Detection of Equine Facial Action Units
 Environment:
 * pytorch >= 1.0
 
-## How to Run Modified Models Detection in Pre-defined Regions of Interest
+## How to Run Our Modified Models in Pre-defined Regions of Interest
 Modify `config.py` for configuration.  
 Call `python main.py` for training and test for the AU binary classification in cropped eye/lower face regions.  
 
