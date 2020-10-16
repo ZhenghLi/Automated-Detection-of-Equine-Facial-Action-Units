@@ -14,8 +14,7 @@ AlexNet: https://github.com/pytorch/vision/blob/master/torchvision/models/alexne
 DRML: https://github.com/AlexHex7/DRML_pytorch
 
 ## ROI Detector
-We employed Yolov3-tiny for ROI Detector:  
-https://github.com/ultralytics/yolov3  
+We employed Yolov3-tiny for ROI Detector: https://github.com/ultralytics/yolov3  
 Remember to change the filters and classes in the yolov3-tiny.cfg for the detection of one class.  
   
 Since Yolov3-tiny does not work well for small objects, we first detected the face regions and then detected eye/lower face regions from cropped face regions.  
