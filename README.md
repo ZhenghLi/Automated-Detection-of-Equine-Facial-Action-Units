@@ -17,5 +17,4 @@ DRML: https://github.com/AlexHex7/DRML_pytorch
 We employed Yolov3-tiny for ROI Detector: https://github.com/ultralytics/yolov3  
 Remember to change the filters and classes in the yolov3-tiny.cfg for the detection of one class.  
   
-Since Yolov3-tiny does not work well for small objects, we first detected the face regions and then detected eye/lower face regions from cropped face regions.  
-
+Since Yolov3-tiny does not work well for small objects, we first detected the face regions and then detected eye/lower face regions from cropped face regions. The cropped eye/lower face regions will have the same label as the raw frames within these regions, and will be resized as 64x64 as the input to these modified models.  
